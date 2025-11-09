@@ -57,7 +57,7 @@ MONGODB_URI="your_mongodb_connection_string_here"
 # httpx calls for Google search scraping.
 # SERPAPI_API_KEY="your_serpapi_key_here"
 streamlit run app.py
-Usage
+## Usage
 Access the Dashboard: The Streamlit app will open in your browser.
 
 Generate Dataset: In the sidebar, click "🚀 Generate Real Dataset (200)". This will fetch data from the NPI Registry, simulate the 30% corruption, and insert the records into the database.
